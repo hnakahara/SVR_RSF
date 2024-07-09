@@ -18,6 +18,14 @@ The dataset used for model building contains the following columns:
 - **Event**: HCC event (first occurrence) (with HCC: 1, without HCC: 0)
 - **time**: Observation time (days)
 
+### Example Dataset
+
+| Plt | gamma-GTP | male0 | age | ALT | Event | time |
+|-----|-----------|-------|-----|-----|-------|------|
+| 15  | 20        | 1     | 55  | 20  | 0     | 365  |
+| 20  | 40        | 0     | 60  | 35  | 1     | 730  |
+| 18  | 35        | 0     | 50  | 18  | 0     | 540  |
+
 ## License
 
 This project is licensed under the Creative Commons Attribution-NonCommercial (CC-By-NC) license. For more details, refer to the LICENSE file.
